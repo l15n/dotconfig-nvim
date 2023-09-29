@@ -1,0 +1,51 @@
+[user]
+	name = Leonard Chin
+	email = l.g.chin@gmail.com
+[core]
+	;Use a global .gitignore
+	excludesFile = ~/.gitignore
+	editor = nvim
+[color]
+	ui = auto
+[diff]
+	mnemonicprefix
+	algorithm = histogram
+	renames = copies
+	ignoreSubmodules = dirty
+	tool = vimdiff
+[alias]
+	st = status -sb
+	ci = commit -v
+	cm = commit -m
+	co = checkout
+	rh = reset  --hard HEAD
+	staged = diff --cached
+	unstaged = diff
+	both = diff HEAD
+	oneline = log --pretty=oneline --abbrev-commit --decorate
+	amend = commit --amend
+	track = branch --track
+	graph = log --graph --abbrev-commit --decorate --pretty=oneline
+	fetch-pulls = fetch origin +refs/pull/*:refs/remotes/pull/*
+	backport = cherry-pick -x -m1
+	recent = branch --sort=-committerdate --format=\"%(committerdate:relative)%09%(refname:short)\"
+[format]
+	numbered = auto
+[branch]
+	autosetupmerge = true
+[difftool]
+	prompt = false
+[credential]
+	helper = osxkeychain
+[init]
+	templatedir = ~/.git_template
+[include]
+	path = ~/.gitconfig.local
+[push]
+	default = simple
+[merge]
+	tool = vimdiff
+	path = nvim
+[mergetool "vimdiff"]
+	cmd = nvim -d $LOCAL $REMOTE $MERGED -c '$wincmd w' -c 'wincmd J'
+
