@@ -1,3 +1,7 @@
+# For config/fish
+fish_variables
+localconfig.fish
+
 # Compiled Lua sources
 luac.out
 
