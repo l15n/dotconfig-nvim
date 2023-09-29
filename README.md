@@ -3,7 +3,7 @@ My shell configuration.
 Install by simlinking to `~/.config` or wherever `$XDG_CONFIG_HOME`.
 
 ```
-ln -s xdg-config-home ~/.config
+ln -sf $PWD ~/.config
 ```
 
 ## Prerequisities
