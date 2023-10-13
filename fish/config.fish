@@ -23,4 +23,9 @@ if which -s jump
   status --is-interactive; and source (jump shell fish | psub)
 end
 
+# Hook into direnv if available https://direnv.net/docs/hook.html
+if which -s direnv
+  direnv hook fish | source
+end
+
 abbr --add br bundle exec rspec
