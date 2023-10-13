@@ -32,4 +32,9 @@ if which -s direnv
   direnv hook fish | source
 end
 
+# Use nodenv if available
+if which -s nodenv
+  status --is-interactive; and source (nodenv init -|psub)
+end
+
 abbr --add br bundle exec rspec
