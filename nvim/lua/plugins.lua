@@ -26,6 +26,7 @@ require('pckr').add{
   'jremmen/vim-ripgrep';
   -- Handy wrapper for fzf
   -- :GFiles, :Lines, :Find
+  'junegunn/fzf';
   'junegunn/fzf.vim';
   'tpope/vim-surround';
   -- vim-repeat: Enables `.` for plugins like surround.vim, uninmpaired.vim
