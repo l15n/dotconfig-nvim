@@ -5,6 +5,9 @@ localconfig.fish
 # Compiled Lua sources
 luac.out
 
+# Don't manage 1Password
+1Password
+
 # luarocks build files
 *.src.rock
 *.zip
