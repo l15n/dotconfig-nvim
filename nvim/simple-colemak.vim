@@ -125,6 +125,20 @@ function! EnableColemakBindings()
   inoremap <M-v> <PageUp>
   vnoremap <M-v> <PageUp>
   onoremap <M-v> <PageUp>
+
+  " Window navigation
+  tnoremap <A-h> <C-\><C-N><C-w>h
+  tnoremap <A-n> <C-\><C-N><C-w>n
+  tnoremap <A-e> <C-\><C-N><C-w>e
+  tnoremap <A-i> <C-\><C-N><C-w>i
+  inoremap <A-h> <C-\><C-N><C-w>h
+  inoremap <A-n> <C-\><C-N><C-w>n
+  inoremap <A-e> <C-\><C-N><C-w>e
+  inoremap <A-i> <C-\><C-N><C-w>i
+  nnoremap <A-h> <C-w>h
+  nnoremap <A-n> <C-w>n
+  nnoremap <A-e> <C-w>e
+  nnoremap <A-i> <C-w>i
 endfunction
 
 function! DisableColemakBindings()
@@ -221,6 +235,19 @@ function! DisableColemakBindings()
   iunmap <M-v>
   vunmap <M-v>
   ounmap <M-v>
+
+  tunmap <A-h>
+  tunmap <A-n>
+  tunmap <A-e>
+  tunmap <A-i>
+  iunmap <A-h>
+  iunmap <A-n>
+  iunmap <A-e>
+  iunmap <A-i>
+  nunmap <A-h>
+  nunmap <A-n>
+  nunmap <A-e>
+  nunmap <A-i>
 endfunction
 
 " Default to use colemak
