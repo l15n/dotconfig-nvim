@@ -29,12 +29,15 @@ require('pckr').add{
   'junegunn/fzf';
   'junegunn/fzf.vim';
   'tpope/vim-surround';
+  'tpope/vim-unimpaired';
   -- vim-repeat: Enables `.` for plugins like surround.vim, uninmpaired.vim
   'tpope/vim-repeat';
   'vim-ruby/vim-ruby';
   'tpope/vim-rails';
-
+  -- display marks in gutter
+  'kshenoy/vim-signature';
   'justinmk/vim-sneak';
   -- color scheme
   'fenetikm/falcon';
+  'rose-pine/neovim';
 }
