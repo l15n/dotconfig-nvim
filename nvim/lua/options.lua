@@ -10,3 +10,5 @@ vim.opt.helplang = 'en'
 vim.opt.colorcolumn = '80'
 
 vim.opt.termguicolors = true
+
+vim.opt.clipboard = 'unnamedplus'
