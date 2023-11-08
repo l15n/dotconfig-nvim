@@ -1,6 +1,6 @@
 [user]
 	name = Leonard Chin
-	email = l.g.chin@gmail.com
+	email = 3714+l15n@users.noreply.github.com
 [core]
 	;Use a global .gitignore
 	excludesFile = ~/.gitignore
