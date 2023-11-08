@@ -1,6 +1,6 @@
+require('leaders')
 require('options')
 require('plugins')
-require('leaders')
 
 
 -- TODO: Rewrite in lua?
