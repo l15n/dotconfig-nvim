@@ -40,6 +40,8 @@ require('pckr').add{
   -- color scheme
   'fenetikm/falcon';
   'rose-pine/neovim';
+  'rebelot/kanagawa.nvim';
+  'folke/tokyonight.nvim';
 
   { 'VonHeikemen/lsp-zero.nvim',
     branch = 'v3.x',
