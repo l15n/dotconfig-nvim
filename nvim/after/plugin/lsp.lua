@@ -29,7 +29,7 @@ end)
 
 require('mason').setup({})
 require('mason-lspconfig').setup({
-  ensure_installed = { 'lua_ls', 'ruby_ls', 'tsserver' },
+  ensure_installed = { 'lua_ls', 'solargraph', 'tsserver' },
   handlers = {
     lsp_zero.default_setup,
   },
