@@ -35,6 +35,7 @@ require('pckr').add{
   'vim-ruby/vim-ruby';
   'tpope/vim-rails';
   'slim-template/vim-slim.git';
+  'editorconfig/editorconfig-vim';
   -- display marks in gutter
   'kshenoy/vim-signature';
   'justinmk/vim-sneak';
