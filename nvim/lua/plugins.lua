@@ -44,6 +44,7 @@ require('pckr').add{
   'rose-pine/neovim';
   'rebelot/kanagawa.nvim';
   'folke/tokyonight.nvim';
+  'vim-test/vim-test';
 
   { 'VonHeikemen/lsp-zero.nvim',
     branch = 'v3.x',
