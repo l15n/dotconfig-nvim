@@ -26,7 +26,9 @@ require('pckr').add{
   'jremmen/vim-ripgrep';
   -- Handy wrapper for fzf
   -- :GFiles, :Lines, :Find
-  'junegunn/fzf';
+  { 'junegunn/fzf', run =  function()
+    vim.fn['fzf#install()'](0)
+  end  };
   'junegunn/fzf.vim';
   'tpope/vim-surround';
   'tpope/vim-unimpaired';
