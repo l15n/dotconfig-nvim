@@ -14,6 +14,7 @@ require'nvim-treesitter.configs'.setup {
     "gitignore",
     "git_rebase",
     "html",
+    "vue"
   },
 
   -- Install parsers synchronously (only applied to `ensure_installed`)
