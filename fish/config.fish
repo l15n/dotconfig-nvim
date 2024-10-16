@@ -10,9 +10,10 @@ set -gx XDG_STATE_HOME $HOME/.local/state
 
 eval (/opt/homebrew/bin/brew shellenv)
 
-# Read local configuration if available
-if test -e ~/.config/fish/localconfig.fish
-  source ~/.config/fish/localconfig.fish
+# Read local configuration from ~/.localconfig if available
+set -l localconfig ~/.localconfig/fish/config.fish
+if test -e $localconfig
+  source $localconfig
 end
 
 # Enable rbenv
