@@ -48,3 +48,6 @@ luac.out
 
 # Data files
 irb/irb_history
+
+# Untracked configuration files
+helm
