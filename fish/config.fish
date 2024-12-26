@@ -38,4 +38,10 @@ if which -s nodenv
   status --is-interactive; and source (nodenv init -|psub)
 end
 
+# Enable atuin
+if which -s atuin
+  status --is-interactive; and atuin init fish | source
+end
+
+
 abbr --add br bundle exec rspec
